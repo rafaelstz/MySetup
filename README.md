@@ -75,6 +75,7 @@ cask \
 brew-cask
 
 ## Brew Cask install
+
 brew cask install \
 
 sequel-pro \
@@ -112,6 +113,14 @@ visual-studio-code \
 vlc
 
 # OS X Preferences
+
+## Set a blazingly fast keyboard repeat rate		
+
+defaults write NSGlobalDomain KeyRepeat -int 2		
+
+## Disable window animations ("new window" scale effect)		
+
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
 
 ## Enable character repeat on keydown
 
